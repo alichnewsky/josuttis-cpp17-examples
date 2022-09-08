@@ -25,3 +25,9 @@ try_compile( noexceptcalls_BUILT ${CMAKE_CURRENT_BINARY_DIR} ${CMAKE_CURRENT_SOU
 if (noexceptcalls_BUILT)
     message( FATAL_ERROR "noexceptcalls.cpp should now fail to compile but has worked" )
 endif()
+
+list(APPEND all_targets alignednew11;alignednew17;alignednewincomp;evalexcept;factory;hexfloat;inlinethreadlocal;lambdathis;structbind1;structbind2;tracknew)
+
+foreach( t ${all_targets})
+    add_test(${t} ${t})
+endforeach()
