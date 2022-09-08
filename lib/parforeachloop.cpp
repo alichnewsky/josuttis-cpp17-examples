@@ -5,6 +5,7 @@
 #include <numeric>
 #include <execution>  // for the execution policy
 #include <cstdlib>    // for atoi()
+#include <cmath>      // for sqrt()
 #include "timer.hpp"
 
 int main(int argc, char* argv[])
