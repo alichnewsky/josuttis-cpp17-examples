@@ -1,0 +1,6 @@
+add_executable(decltypeauto decltypeauto.cpp)
+add_executable(foldcalls foldcalls.cpp)
+add_executable(foldtraverse foldtraverse.cpp foldtraverse.hpp)
+add_executable(ifcomptime ifcomptime.cpp ifcomptime.hpp)
+add_executable(invoke invoke.cpp invoke.hpp)
+add_executable(vartmplauto vartmplauto1.cpp vartmplauto2.cpp vartmplauto.hpp)

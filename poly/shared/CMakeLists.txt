@@ -1,0 +1,1 @@
+add_executable(shared_geoobjtest geoobjtest.cpp circle.hpp coord.hpp geoobj.hpp line.hpp polygon.hpp tracknew.hpp)
